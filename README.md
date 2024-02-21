@@ -34,7 +34,7 @@ Follow the steps below if you want to use this.
 
 ## To use CLI in development
 
-1. `npm build`
+1. `npm run build`
 2. `npm link` (only need to do this once)
 
 # Future Readings
