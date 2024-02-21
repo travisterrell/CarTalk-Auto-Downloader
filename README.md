@@ -1,4 +1,6 @@
-### I forked an old archived github project and fixed it. Also updated it a bit to use the episode number and title for the file names, since the downloaded file names are not descriptive. My changes aren't pretty or anything—just getting it going for a one-time use of downloading the archive, but they work! (Currently!) 
+### I forked an old archived github project and fixed it. Also improved it a bit to use the episode number and title for the file names, since the downloaded file names are not descriptive. My changes aren't pretty or anything—just getting it going for a one-time use of downloading the archive, but they work! (Currently!) 
+
+If you have issues, the --show-browser option can be helpful. Also there are options for retry interval, max attempts, detailed logging, etc. you can adjust in settings.json. (Assuming the page hasn't changed significantly, in which case you'd have to inspect the page and modify the puppeteer code.)
 
 ### Original project's description follows: 
 
