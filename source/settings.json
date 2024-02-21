@@ -1,6 +1,6 @@
 {
     "carTalkPage": "https://www.npr.org/podcasts/510208/car-talk",
-    "loadMoreDelay_ms": 700,
+    "loadMoreDelay_ms": 500,
     "queries": {
         "downloadButtons": ".audio-tool.audio-tool-download > a",
         "loadMoreButtons": ".options__load-more"

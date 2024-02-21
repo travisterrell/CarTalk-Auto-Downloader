@@ -15,7 +15,7 @@
     "url": "https://github.com/JoshuaTheMiller/CarTalk-Auto-Downloader.git"
   },
   "scripts": {
-    "build": "tsc .",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc && node ./out/index.js"
   },
@@ -30,6 +30,7 @@
     "commander": "^5.0.0",
     "figlet": "^1.3.0",
     "fs": "0.0.1-security",
+    "he": "^1.2.0",
     "inquirer": "^7.1.0",
     "jquery": "^3.4.1",
     "puppeteer": "^2.0.0",
@@ -39,7 +40,8 @@
     "@types/figlet": "^1.2.0",
     "@types/gulp": "^4.0.6",
     "@types/gulp-copy": "0.0.4",
-    "@types/node": "^13.1.4",
+    "@types/he": "^1.2.3",
+    "@types/node": "^13.13.52",
     "@types/puppeteer": "^2.0.0",
     "@types/request": "^2.48.4",
     "dotenv": "^8.2.0",
