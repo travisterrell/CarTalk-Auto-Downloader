@@ -1,4 +1,6 @@
-### I forked an old github project and fixed it. Also updated it a bit to use the episode number and title for the file names, since the default names were not descriptive. My changes aren't pretty or anything—just getting it going for a one-time use of downloading the archive, but they work! (Currently!) Original project's description follows: 
+### I forked an old github project and fixed it. Also updated it a bit to use the episode number and title for the file names, since the default names were not descriptive. My changes aren't pretty or anything—just getting it going for a one-time use of downloading the archive, but they work! (Currently!) 
+
+### Original project's description follows: 
 
 
 # Before running... please read
