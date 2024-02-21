@@ -1,3 +1,6 @@
+I forked an old github project and fixed it. Also updated it a bit to use the episode number and title for the file names, since the default names were not descriptive. Original project's description follows: 
+
+
 # Before running... please read
 
 As with any tool that helps automate tasks you would have done anyways, please use reasonably. As far as [NPR's Terms of Service reads](https://www.npr.org/about-npr/179876898/terms-of-use), you may only use this for personal and noncommercial use to retrieve the Car Talk episodes you would have downloaded for yourself anyways. This tool does not leverage NPR's APIs, so it *should* not fall under the API Content TOS. If you really enjoy Car Talk, think about [supporting NPR](https://www.npr.org/support) by [buying some swag](https://shop.npr.org/) and/or by [making a donation](https://www.npr.org/donations/support).
@@ -18,7 +21,7 @@ Long story short, a friend of mine asked me if it was possible to do something l
 
 ## What is this?
 
-A tool to help click a bunch of download buttons with only your keyboard! It is an... auto downloader 🤔
+A tool to help click a bunch of download buttons with only your keyboard! It is an... auto downloader 🤔  
 
 # Developing
 
