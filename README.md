@@ -1,12 +1,12 @@
 # Car Talk Public Archive Downloader — Improved!
 
-I forked an old archived github project that helps download old episodes of this fantastic radio show and fixed/improved it. It now uses the episode number and title for the file names, since the server names aren't descriptive. It's unfortunate that NPR now limits the number of past episodes in their podcast XML, but this is a solid workaround. My changes aren't beautiful or anything—just getting it going for a one-time use of downloading the archive, but they work! It skips duplicates, so you can technically run it again when new episodes are released (but really, I'd strongly recommend just using the podcast feed for new episodes instead of hammering the website like this.)  
+This is a fixed/improved fork of an old archived github project that helps download old episodes of this fantastic NPR radio show. Beyond fixes, the biggest improvement is that it now uses the episode number and title for the file names, since the names from the server are just random strings. 
 
-If you have issues, the --show-browser option can be helpful. There are also options for retry interval, max attempts, detailed logging, etc. settings.json. (Assuming NPR's page hasn't changed significantly, in which case you'd have to inspect it and modify the puppeteer code accordingly.) Feel free to report an issue if you experience problems and I'll try to get you fixed up.
+It's unfortunate that NPR now limits the number of past episodes in their podcast XML, but this is a solid workaround. My changes aren't beautifully architected or anything, but they work! It skips duplicates, so you can technically run it again when new episodes are released (but really, I'd **strongly recommend** just using the podcast feed for "new" episodes instead of hammering the website like this.)  
 
-**Original project's description follows — Read it!**
+If you have issues, the `--show-browser` option can be helpful. There are also options for retry interval, max attempts, detailed logging, etc. in the settings.json. (Assuming NPR's page hasn't changed significantly, in which case you'd have to inspect it and modify the puppeteer code accordingly.) Feel free to report an issue if you experience problems and I'll try to get you fixed up.
 
-
+# [Original project's description follows - Read it!]
 # Before running... please read
 
 As with any tool that helps automate tasks you would have done anyways, please use reasonably. As far as [NPR's Terms of Service reads](https://www.npr.org/about-npr/179876898/terms-of-use), you may only use this for personal and noncommercial use to retrieve the Car Talk episodes you would have downloaded for yourself anyways. This tool does not leverage NPR's APIs, so it *should* not fall under the API Content TOS. If you really enjoy Car Talk, think about [supporting NPR](https://www.npr.org/support) by [buying some swag](https://shop.npr.org/) and/or by [making a donation](https://www.npr.org/donations/support).
